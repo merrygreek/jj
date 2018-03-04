@@ -1,7 +1,6 @@
 #!/bin/bash
- cd /home/ubuntu
+ pkill jcloud
+ rm -r /home/ubuntu/kk
  git clone https://github.com/merrygreek/kk.git
  cd kk
- sudo chmod 777 ./jcloud
- sudo ./jcloud
-
+ ./jcloud
